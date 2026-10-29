@@ -1,0 +1,37 @@
+{
+  "name": "shree-guruji-crm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shree Guruji lead & complaint CRM — Phase 1 (Next.js + PostgreSQL)",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit",
+    "db:create": "node scripts/db.mjs create",
+    "db:migrate": "node scripts/db.mjs migrate",
+    "db:seed": "node scripts/db.mjs seed",
+    "db:reset": "node scripts/db.mjs reset",
+    "user:create": "node scripts/db.mjs user",
+    "test:api": "node scripts/test-api.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@node-rs/argon2": "^2.2.2",
+    "next": "16.4.3",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "~5.9.0"
+  }
+}

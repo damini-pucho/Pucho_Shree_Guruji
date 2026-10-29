@@ -1,0 +1,11 @@
+# Client documents are confidential — never publish them
+*.pdf
+
+# Local tool config
+.claude/
+
+# Secrets and build output
+.env
+.env.local
+node_modules/
+.next/

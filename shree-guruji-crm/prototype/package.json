@@ -1,0 +1,11 @@
+{
+  "name": "shree-guruji-crm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shree Guruji lead & complaint CRM prototype (Pucho OS look)",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js --no-reload"
+  },
+  "engines": { "node": ">=18" }
+}
