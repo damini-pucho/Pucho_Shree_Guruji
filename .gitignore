@@ -1,6 +1,3 @@
-# Client documents are confidential — never publish them
-*.pdf
-
 # Local tool config
 .claude/
 
